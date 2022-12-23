@@ -16,28 +16,18 @@
     .paises{
         width: 400px;
         display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        
+    }   
+
+    .pai {
+        display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
-    .colombia {
-        position: absolute;
-        left: 650px;
-       bottom: 573px ;
-       right: auto;
-    }
-    .brasil {
-        position: absolute;
-        right: auto;
-        bottom: 573px;
-        left: 1260px;
-    }
-    .chile {
-        position: absolute;
-        left:  1240px;
-        bottom: 573px;
-        display: none;
-    }
-    body {
+   
+     span {
         background-color: #024683;
         font-family: 'VT323', monospace;
        font-size: large;
@@ -49,25 +39,31 @@
 <body>
     <h1>Viagens incriveis!</h1>
     <main>
-        <div>
-            <span class="paises">PARQUE NACIONAL LOS GLACIARES, ARGENTINA</span>
-            <a href="./argetina.html">
-                <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-los-glaciares.jpg" alt="foto-argentina" class="paises" class="foto-argetina"  >
-            </a>
-        </div>
+        <div class="pai">
 
-        <div class="colombia">
-            <span class="paises">CAÑO CRISTALES, COLÔMBIA</span>
-            <a href="./colombia.html">
-                <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-cano-cristales.jpg" alt="" class="paises" class="foto-colombia">
-            </a>
-        </div>
+            <div>
+                
+                <span class="paises">PARQUE NACIONAL LOS GLACIARES, ARGENTINA</span>
+                <a href="./argetina.html">
+                    <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-los-glaciares.jpg" alt="foto-argentina" class="paises" class="foto-argetina"  >
+                </a>
+            </div>
+            <div>
 
-        <div class="brasil">
-            <span>CATARATAS DO IGUAÇU, BRASIL E ARGENTINA</span>
-            <a href="./brasil.html">
-                <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-cataratas-igua%C3%A7u.jpg" alt="foto-brasil" class="paises">
-            </a>
+                <span class="paises">CAÑO CRISTALES, COLÔMBIA</span>
+                <a href="./colombia.html">
+                    <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-cano-cristales.jpg" alt="" class="paises" class="foto-colombia">
+                </a>
+            </div>    
+       
+            <div>
+
+                <span>CATARATAS DO IGUAÇU, BRASIL E ARGENTINA</span>
+                <a href="./brasil.html">
+                    <img src="https://www.essemundoenosso.com.br/wp-content/uploads/2015/11/lugares-da-america-do-sul-cataratas-igua%C3%A7u.jpg" alt="foto-brasil" class="paises">
+                </a>
+            </div>
+        </div>
         </div>
     </main>
 </body>
