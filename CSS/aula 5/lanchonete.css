@@ -1,0 +1,56 @@
+
+body {
+    color: white;
+    font-size: larger;
+}
+
+
+.pai {
+    width: 50px;
+    height: 500px;
+    
+}
+img {
+    width: 50px;
+}
+.expandir {
+    width: 50px;
+    height: 100px;
+   animation-name: aumentar;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay: 1s;
+   animation-direction: forwards;
+   animation-play-state: running;
+}
+   
+.strogonoff {
+    background-color: brown;
+}
+
+.lasanha {
+    background-color: #E9967A;
+}
+
+.churrasco {
+    background-color: #B22222;
+}
+
+.lasanha {
+    background-color: #BC8F8F;
+}
+.empadao {
+    background-color: #A0522D;
+}
+.jilo {
+    background-color: #228B22;
+}
+@keyframes aumentar {
+    from{
+     width: 150px;
+    }
+    to{
+      width: 300px; 
+    }
+}
