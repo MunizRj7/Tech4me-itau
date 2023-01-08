@@ -1,0 +1,69 @@
+
+body {
+    background-color: white;
+    font-family: "Montserrat"
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    color: #FF686B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-image: linear-gradient(to right bottom, #e1f4eb, #c1e7d7, #9fdac5, #79cdb4, #4cc0a4);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: small;
+    text-align: center;
+}
+
+.image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+
+.carregamento {
+    left: 800px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    border-right: 5px solid green;background: linear-gradient(90deg, rgba(255,104,107,1) 15%, rgba(132,220,198,1) 100%) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;  
+
+    animation-name: girar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: forwards;
+    animation-play-state: running;
+}
+
+@keyframes girar{
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
