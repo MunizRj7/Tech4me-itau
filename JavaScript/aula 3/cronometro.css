@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+}
+
+#relogio{
+    font-family: monospace;
+    font-size: 24pt;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    font-weight: lighter;
+}

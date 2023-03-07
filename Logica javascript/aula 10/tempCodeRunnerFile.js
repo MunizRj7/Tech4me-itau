@@ -1,0 +1,1 @@
+const lista = ["Karine", "Laisa", "Maxwell", "Moacir", "Rafael", "Rebeca"];

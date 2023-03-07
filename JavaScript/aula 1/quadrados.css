@@ -1,0 +1,20 @@
+.container {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-image: url('https://a.espncdn.com/i/teamlogos/soccer/500/3454.png');
+}
+
+.botao {
+    margin: 10px;
+    font-size: large;
+}
